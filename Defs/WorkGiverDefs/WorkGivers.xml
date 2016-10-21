@@ -5,11 +5,11 @@
 
 	<WorkGiverDef>
 		<defName>CookRefuel</defName>
-		<label>refuel (cooking)</label>
-		<giverClass>WorkGiver_Refuel</giverClass>
+		<label>refuel stove</label>
+		<giverClass>CCRefuel.WorkGiver_CCRefuel</giverClass>
 		<workType>Cooking</workType>
 		<verb>refuel</verb>
-		<gerund>refueling</gerund>
+		<gerund>refuelling</gerund>
 		<priorityInType>60</priorityInType>
 		<requiredCapacities>
 			<li>Manipulation</li>

@@ -4,7 +4,5 @@
 	<author>Dingo</author>
 	<url>https://ludeon.com/forums/index.php?topic=26077</url>
 	<targetVersion>0.15.0</targetVersion>
-	<description>Allows cooks to use the refuel function. No more chefs being too lazy to refuel their stoves!*
-
-*They will also refuel other fuel-powered structures such as generators and torches, a relatively harmless side-effect.</description>
+	<description>Allows cooks to refuel the non-electric stove. No more chefs being lazy because your haulers are busy!</description>
 </ModMetaData>
