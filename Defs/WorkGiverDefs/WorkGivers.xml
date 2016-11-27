@@ -5,8 +5,8 @@
 
 	<WorkGiverDef>
 		<defName>CookRefuel</defName>
-		<label>refuel stove</label>
-		<giverClass>CCRefuel.WorkGiver_CCRefuel</giverClass>
+		<label>refuel food production stations</label>
+		<giverClass>CooksCanRefuel.WorkGiver_RefuelForCooks</giverClass>
 		<workType>Cooking</workType>
 		<verb>refuel</verb>
 		<gerund>refuelling</gerund>

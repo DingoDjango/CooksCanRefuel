@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("CCRefuel")]
+[assembly: AssemblyTitle("CooksCanRefuel")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("CCRefuel")]
+[assembly: AssemblyProduct("CooksCanRefuel")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("09962b4e-be3e-43e1-b5ae-c50f7d161997")]
+[assembly: Guid("345ec344-ad2f-4376-958e-8b5c2945eea3")]
 
 // Version information for an assembly consists of the following four values:
 //
