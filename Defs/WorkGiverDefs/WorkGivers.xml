@@ -10,7 +10,7 @@
 		<workType>Cooking</workType>
 		<verb>refuel</verb>
 		<gerund>refuelling</gerund>
-		<priorityInType>60</priorityInType>
+		<priorityInType>70</priorityInType>
 		<requiredCapacities>
 			<li>Manipulation</li>
 		</requiredCapacities>
