@@ -1,13 +1,15 @@
-using Verse;
+using System.Collections.Generic;
 using RimWorld;
+using Verse;
 
-namespace CooksCanRefuel
+namespace Cooks_Can_Refuel
 {
 	public class WorkGiver_RefuelForCooks : WorkGiver_Refuel
 	{
-		public override bool HasJobOnThing(Pawn pawn, Thing t, bool forced = false)
+		//RimWorld.JobGiver_Work.TryIssueJobPackage
+		public override IEnumerable<Thing> PotentialWorkThingsGlobal(Pawn pawn)
 		{
-			return base.HasJobOnThing(pawn, t) && t.def.building.isMealSource;
+			return pawn.Map.listerThings.ThingsMatching(this.PotentialWorkThingRequest).FindAll(t => t.def.building.isMealSource);
 		}
 	}
 }
