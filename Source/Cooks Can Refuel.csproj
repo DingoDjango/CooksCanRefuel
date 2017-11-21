@@ -7,7 +7,7 @@
     <ProjectGuid>{AD72E897-5B18-4570-9A3B-898D9AB398CC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Cooks_Can_Refuel</RootNamespace>
+    <RootNamespace>CooksCanRefuel</RootNamespace>
     <AssemblyName>Cooks Can Refuel</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
